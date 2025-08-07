@@ -1,23 +1,9 @@
-This Repository conatins Python code to:
-1. Extract vector graphics
-2. Extract Text
-3. Find addresses of ofc nodes
-4. Geolocate those nodes
-  from available ofc maps at the subdistrict level
+OFC Layout Mapping for Indian States
 
-The libraries used are:
-1. geopy.geocoders
-2. folium
-3. PyMuPDF
-4. re (regular expression)
-5. math
-6. csv
+Overview
+This project provides a streamlined approach to visualizing and mapping the Optical Fiber Cable (OFC) infrastructure across various states in India. By aggregating and processing data from multiple public and proprietary sources, the code helps users understand the current state of connectivity and fiber deployment in their region of interest.
 
-For PDF files requiring OCR for text extraction, libraries used are:
-1. pytesseract
-2. cv2
-3. pdf2image
-4. PIL
-5. reportlab
-6. os
-7. numpy
+Features
+Aggregation from Various Sources: Integrates OFC data from publicly available databases, GIS files, government portals, and open-access telecom records.
+Custom Visualization: Produces interactive maps that highlight connectivity, key routes, and underserved regions.
+Easy Extensibility: Modular codebase allows users to add new data sources or states with minimal effort.
