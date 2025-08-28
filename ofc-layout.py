@@ -304,7 +304,7 @@ def create_combined_pdf(input_path, output_path, map_path="points_map.html", pag
 
     file.close()
 
-    f=open(r'C:\Users\Aadya Bhardwaj\Downloads\rajasthan_olte.csv', 'r')
+    f=open('rajasthan_olte.csv', 'r')
     reader=csv.reader(f)
     next(reader)
 
@@ -319,7 +319,7 @@ def create_combined_pdf(input_path, output_path, map_path="points_map.html", pag
     m.save("points_map.html")
 
 
-input_path=r"C:\Users\Aadya Bhardwaj\Downloads\C391_S8_RAJASTHAN_D3_Banswara_B6_Kushalgarh.pdf"
+input_path="C391_S8_RAJASTHAN_D3_Banswara_B6_Kushalgarh.pdf"  #example
 
 
 
@@ -329,5 +329,6 @@ create_combined_pdf(
     map_path="points_map.html",
     page_num=0
 )
+
 
 
